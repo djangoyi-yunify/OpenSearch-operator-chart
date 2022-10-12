@@ -18,4 +18,9 @@ manager:
   # If a watchNamespace is specified, the manager's cache will be restricted to
   # watch objects in the desired namespace. Defaults is to watch all namespaces.
   watchNamespace:
-exporterMonitorCredentialName: "exporter-monitor-credential"
+
+prometheus:
+  secretName: "prometheus-credentials-secret"
+  # Prometheus/prometheus
+  username: UHJvbWV0aGV1cw==
+  password: cHJvbWV0aGV1cw==
