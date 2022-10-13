@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  opensearch-operator:
+  - apiVersion: v2
+    appVersion: latest_test
+    created: "2022-10-13T03:07:08.043522168Z"
+    description: The OpenSearch Operator Helm chart for Kubernetes
+    digest: 44a6f6b0ae9cc6bb7cd08f2d0de61e211b9b352ae39a348cb8634020c6d59a61
+    name: opensearch-operator
+    type: application
+    urls:
+    - https://github.com/djangoyi-yunify/OpenSearch-operator-chart/releases/download/opensearch-operator-2.0.6/opensearch-operator-2.0.6.tgz
+    version: 2.0.6
+generated: "2022-10-13T03:07:07.785915209Z"
